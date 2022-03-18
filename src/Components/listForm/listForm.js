@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import s from "./listForm.module.css";
 import { connect } from "react-redux";
-import contactsAction from "../redux/contact/contacts-action";
+import contactsAction from "../../redux/contact/contacts-action";
 
 const ListForm = ({ onContacts, onDeleteContacts }) => {
   return (

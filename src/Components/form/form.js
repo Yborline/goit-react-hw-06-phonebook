@@ -3,7 +3,7 @@ import { nanoid } from "nanoid";
 import PropTypes from "prop-types";
 import s from "./form.module.css";
 import { connect } from "react-redux";
-import contactsActions from "../redux/contact/contacts-action";
+import contactsActions from "../../redux/contact/contacts-action";
 
 function Form({ valueForm, onSubmit }) {
   const [name, setName] = useState("");
